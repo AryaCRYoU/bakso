@@ -1168,24 +1168,18 @@ def help():
 
 def login():
     clear()
-    user = "DDOS"
-    passwd = "C2"
+    user = "ddos"
+    passwd = "ddosc2"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ PROSES...... ")
-        time.sleep(6)
-        print("⚡ LOGIN GAGAL SILAHKAN ROOT TERLEBIH DAHULU ")
+        print("⚡ UNKNOWN LOGIN BYE⛔")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome Bro To LEVYX C2")
+        print("⚡ Welcome Bro To levyx C2")
         time.sleep(0.3)
+        ascii_vro()
         main() 
 
 login()
-
-
-
-
-
