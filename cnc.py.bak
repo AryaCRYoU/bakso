@@ -1179,7 +1179,6 @@ def login():
     elif username == user and password == passwd:
         print("⚡ Welcome Bro To levyx C2")
         time.sleep(0.3)
-        ascii_vro()
         main() 
 
 login()
